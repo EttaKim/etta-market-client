@@ -15,7 +15,7 @@ function MainPage() {
         setProducts(products);
       })
       .catch(function (error) {
-        console.error("에러발생 : ", error);
+        console.error("에러발 : ", error);
       });
   }, []);
 
